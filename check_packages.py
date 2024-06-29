@@ -12,6 +12,6 @@ def check_packages(requirements_file):
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    requirements_file = 'requirements.txt'  # Change this if your file has a different name
+    requirements_file = 'requirements.txt'
     check_packages(requirements_file)
 
